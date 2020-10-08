@@ -1,0 +1,334 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+         :root {
+            --secondary-font-color: #ccc;
+        }
+        
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background-image: url(../img/fondo.jpeg);
+            background-repeat: no-repeat;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: 100%;
+            position: relative;
+            z-index: 80;
+        }
+        
+        form {
+            width: 340px;
+            height: 430px;
+            background: white;
+            margin: 0 auto;
+            padding: 10px;
+            color: #999;
+            margin-top: 20px;
+            border-radius: 3px;
+            font-size: 19px;
+        }
+        
+        form p {
+            padding: 5px;
+        }
+        
+        input {
+            margin: auto;
+            outline: none;
+            text-align: center;
+            width: 280px;
+            margin-top: 10px;
+        }
+        
+        .field {
+            border: solid 1px #ccc;
+            padding: 5px;
+        }
+        
+        .field:focus {
+            border-color: hsla(25, 75%, 47%, 0.781);
+        }
+        
+        .btn-color {
+            background-color: chocolate;
+            font-size: 18px;
+            color: white;
+            height: 40px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            border: 0;
+        }
+        
+        form h2 {
+            text-align: center;
+        }
+        
+        .container-banner {
+            width: 100%;
+            max-width: 122.5rem;
+            margin: 0 auto;
+            padding: 0 2.4rem;
+            margin-top: 100px;
+        }
+        
+        .titulo-banner {
+            font-size: 5.5rem;
+            font-family: var(--secondary-font);
+            color: var(--secondary-font-color);
+            font-weight: 100;
+            line-height: .4;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .subtitulo-banner {
+            color: var(--secondary-font-color);
+            font-size: 2.7rem;
+            font-family: var(--main-font);
+            text-transform: uppercase;
+            font-weight: 900;
+            letter-spacing: .5rem;
+            margin-right: .5rem;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 100%;
+            height: 50px;
+            color: white;
+            display: flex;
+        }
+        
+        .nombre {
+            width: 240px;
+            background: rgba(102, 51, 153, 0.884);
+            height: 50px;
+            padding: 10px;
+        }
+        
+        .sesion {
+            width: 100%;
+            height: 50px;
+            background: rgba(102, 51, 153, 0.884);
+        }
+        
+        .admin {
+            width: 230px;
+            height: 50px;
+            font-size: 13px;
+            margin-left: 83%;
+            padding: 10px;
+        }
+        
+        .administrador {
+            border: 1px solid #E5E7E9;
+            border-top: 0;
+            margin-top: 20px;
+            border-right: 0;
+            border-left: 0;
+            padding: 5px;
+        }
+        
+        .administrador a {
+            padding: 15px 10px;
+            text-decoration: none;
+            font-family: "work Sans", sans-serif;
+            color: #AEB6BF;
+        }
+        
+        .contenedor {
+            width: 100%;
+            height: 600px;
+            background: #E5E7E9;
+            display: flex;
+        }
+        
+        .contendorpanel {
+            width: 230px;
+            height: 600px;
+            background: white;
+            border: 1px solid #E5E7E9;
+        }
+        
+        .contenedorcontenido {
+            width: 100%;
+            height: 630px;
+            background: white;
+        }
+        
+        .cabezera {
+            width: 100%;
+            height: 40px;
+            background: hsla(25, 75%, 47%, 0.781);
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+            padding: 5px;
+        }
+        
+        .botones {
+            width: 100%;
+            height: 50px;
+            background-color: hsla(25, 75%, 47%, 0.781);
+        }
+        
+        .botones input {
+            width: 130px;
+            height: 30px;
+        }
+        
+        .menu ul {
+            margin: 10px;
+            list-style: none;
+            margin-top: 10px;
+            color: #AEB6BF;
+        }
+        
+        .menu ul ul {
+            display: none;
+        }
+        
+        .menu ul ul a {
+            color: #AEB6BF;
+        }
+        
+        .menu a {
+            color: #AEB6BF;
+            display: block;
+            padding: 15px 10px;
+            text-decoration: none;
+            font-family: "work Sans", sans-serif;
+        }
+        
+        .menu a:hover {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 3px;
+            color: white;
+        }
+        
+        .span {
+            margin-left: 5px;
+        }
+        
+        .menu ul li:hover ul {
+            display: block;
+        }
+        
+        .añadircliente {
+            width: 94%;
+            height: 700px;
+            background: white;
+            margin-top: 20px;
+            margin-left: 45px;
+            border-radius: 5px;
+        }
+        
+        .añadircliente h2 {
+            margin-left: 40px;
+            color: rebeccapurple;
+        }
+        
+        .perfilcliente {
+            width: 95%;
+            height: 85%;
+            background-color: white;
+            margin: auto;
+            border: 1px solid #E5E7E9;
+            display: flex;
+        }
+        
+        .contenidocliente {
+            width: 95%;
+            height: 90%;
+            background-color: white;
+            margin: auto;
+            display: flex;
+            border: 1px solid #E5E7E9;
+        }
+        
+        .fotoperfil {
+            width: 130px;
+            height: 130px;
+            margin-left: 30px;
+            margin-top: 40px;
+            border: 1px solid #E5E7E9;
+        }
+        
+        .fotoperfil img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .formulariocliente {
+            width: 80%;
+            height: 93%;
+            background-color: white;
+            margin-top: 15px;
+            margin-left: 10px;
+            border: 1px solid #E5E7E9;
+        }
+        
+        table {
+            background-color: #E5E7E9;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            padding: 20;
+        }
+        
+        th {
+            height: 40px;
+        }
+        
+        td {
+            height: 30px;
+        }
+        
+        thead {
+            background-color: rebeccapurple;
+            border-bottom: solid 5px rgb(82, 32, 133);
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #ddd;
+        }
+        
+        .articulo2 {
+            width: 80%;
+            height: 600px;
+            background: red;
+            margin: auto;
+            margin-top: 100px;
+        }
+        
+        select {
+            outline: none;
+            margin-top: 5px;
+            width: 280px;
+            padding: 5px;
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            color: black;
+        }
+        
+        .productos {}
